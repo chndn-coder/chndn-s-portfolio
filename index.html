@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- AOS library for animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Hello, I'm Chandan Kumar!</h1>
+        <p>I am a bachelor student who is currently pursuing B.Tech degree in Computer Science Engineering from JUIT, Himachal Pradesh.
+           I'm a web developer with a passion for creating engaging, interactive, and visually appealing websites. With a focus on clean code and user-centered design, I aim to bring ideas to life on the web.
+        </p>
+        <br>
+        <a href="#projects" class="button">View My Work</a>
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" data-aos="fade-up">
+        <h2>About Me</h2>
+        <p>I am a web developer with a passion for creating interactive, visually appealing, and user-friendly websites.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" data-aos="fade-up">
+        <h2>Skills</h2>
+        <div class="skill-cards">
+            <div class="skill-card">
+                <img src="https://img.icons8.com/color/48/000000/html-5.png" alt="HTML Logo">
+                <h3>HTML</h3>
+                <p>6 months experience</p>
+            </div>
+            <div class="skill-card">
+                <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS Logo">
+                <h3>CSS</h3>
+                <p>6 months experience</p>
+            </div>
+            <div class="skill-card">
+                <img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript Logo">
+                <h3>JavaScript</h3>
+                <p>6 months experience</p>
+            </div>
+            <!-- Add more skill cards as needed -->
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" data-aos="fade-up">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3>Interactive Portfolio Website</h3>
+            <ul>
+              <li>Create a personal portfolio showcasing skills,projects and contact information with interactive elements like animations or form submissions.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>E-commerce Product Page</h3>
+            <ul>
+              <li>Build a product page with items listings,descriptions,pricing, and an option to add to a shoping cart, focusing on responsive design.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Blog Website</h3>
+            <ul>
+              <li>Develop a blog where users can sign up, log in, and post articles, including comments functionality and basic security features. </li>
+            </ul>
+          </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" data-aos="fade-up">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- AOS and Custom Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="scripts.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
